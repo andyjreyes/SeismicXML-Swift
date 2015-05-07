@@ -26,10 +26,8 @@ class APLEarthquakeTableViewSwiftCell: UITableViewCell
         tempFormatter.dateStyle = NSDateFormatterStyle.MediumStyle
         tempFormatter.timeStyle = NSDateFormatterStyle.MediumStyle
         
-        println("We are running dateFormatter's initialization block")
-        
         return tempFormatter;
-        }()
+    }()
     
     
     internal func configureWithEarthquake(earthquake: APLEarthquake)
@@ -42,10 +40,6 @@ class APLEarthquakeTableViewSwiftCell: UITableViewCell
         {
             magnitudeImage.image = image
         }
-        
-        // See if the statements below run the dateFormatter: block multiple times
-//        dateFormatter.timeStyle = NSDateFormatterStyle.LongStyle
-//        dateFormatter.timeStyle = NSDateFormatterStyle.MediumStyle
     }
     
     // Based on the magnitude of the earthquake, return an image indicating its seismic strength.
