@@ -10,7 +10,6 @@
 		280394E51715C23500C034E3 /* APLEarthquake.m in Sources */ = {isa = PBXBuildFile; fileRef = 280394E21715C23500C034E3 /* APLEarthquake.m */; };
 		280394E61715C23500C034E3 /* APLParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 280394E41715C23500C034E3 /* APLParseOperation.m */; };
 		28209B4B1739B207001F5C85 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28209B4A1739B207001F5C85 /* MapKit.framework */; };
-		285A04E61715C5090075E47F /* APLEarthquakeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A04E51715C5090075E47F /* APLEarthquakeTableViewCell.m */; };
 		285A04EB1715C9610075E47F /* 2.0.png in Resources */ = {isa = PBXBuildFile; fileRef = 285A04E71715C9610075E47F /* 2.0.png */; };
 		285A04EC1715C9610075E47F /* 3.0.png in Resources */ = {isa = PBXBuildFile; fileRef = 285A04E81715C9610075E47F /* 3.0.png */; };
 		285A04ED1715C9610075E47F /* 4.0.png in Resources */ = {isa = PBXBuildFile; fileRef = 285A04E91715C9610075E47F /* 4.0.png */; };
@@ -35,8 +34,6 @@
 		280394E31715C23500C034E3 /* APLParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLParseOperation.h; sourceTree = "<group>"; };
 		280394E41715C23500C034E3 /* APLParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLParseOperation.m; sourceTree = "<group>"; };
 		28209B4A1739B207001F5C85 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		285A04E41715C5090075E47F /* APLEarthquakeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLEarthquakeTableViewCell.h; sourceTree = "<group>"; };
-		285A04E51715C5090075E47F /* APLEarthquakeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLEarthquakeTableViewCell.m; sourceTree = "<group>"; };
 		285A04E71715C9610075E47F /* 2.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.0.png; path = Images/2.0.png; sourceTree = "<group>"; };
 		285A04E81715C9610075E47F /* 3.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.0.png; path = Images/3.0.png; sourceTree = "<group>"; };
 		285A04E91715C9610075E47F /* 4.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.0.png; path = Images/4.0.png; sourceTree = "<group>"; };
@@ -126,8 +123,6 @@
 				28FB23AB1715BFCF0000C69F /* APLViewController.m */,
 				280394E31715C23500C034E3 /* APLParseOperation.h */,
 				280394E41715C23500C034E3 /* APLParseOperation.m */,
-				285A04E41715C5090075E47F /* APLEarthquakeTableViewCell.h */,
-				285A04E51715C5090075E47F /* APLEarthquakeTableViewCell.m */,
 				A149990B1AFB396300A04EAB /* APLEarthquakeTableViewCell.swift */,
 				280394E11715C23500C034E3 /* APLEarthquake.h */,
 				280394E21715C23500C034E3 /* APLEarthquake.m */,
@@ -230,7 +225,6 @@
 				280394E51715C23500C034E3 /* APLEarthquake.m in Sources */,
 				A149990C1AFB396300A04EAB /* APLEarthquakeTableViewCell.swift in Sources */,
 				280394E61715C23500C034E3 /* APLParseOperation.m in Sources */,
-				285A04E61715C5090075E47F /* APLEarthquakeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
