@@ -198,7 +198,7 @@ static NSString * const kGeoRSSPointElementName = @"georss:point";
         NSScanner *scanner = [NSScanner scannerWithString:self.currentParsedCharacterData];
         // Scan past the "M " before the magnitude.
         if ([scanner scanString:@"M " intoString:NULL]) {
-            CGFloat magnitude;
+            float magnitude;
             if ([scanner scanFloat:&magnitude]) {
                 self.currentEarthquakeObject.magnitude = magnitude;
                 // Scan past the ", " before the title.
