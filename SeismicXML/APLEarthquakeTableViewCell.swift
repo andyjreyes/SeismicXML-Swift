@@ -33,11 +33,7 @@ class APLEarthquakeTableViewCell: UITableViewCell
         locationLabel.text = earthquake.location
         dateLabel.text = dateFormatter.stringFromDate(earthquake.date)
         magnitudeLabel.text = String(format: "%.1f", Double(earthquake.magnitude))
-        
-        if let image = imageForMagnitude(earthquake.magnitude)
-        {
-            magnitudeImage.image = image
-        }
+        magnitudeImage.image = imageForMagnitude(earthquake.magnitude)
     }
     
     // Based on the magnitude of the earthquake, return an image indicating its seismic strength.
