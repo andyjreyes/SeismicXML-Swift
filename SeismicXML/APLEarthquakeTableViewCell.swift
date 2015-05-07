@@ -9,7 +9,13 @@
 import Foundation
 import UIKit
 
-class APLEarthquakeTableViewCell : UITableViewCell
+class APLEarthquakeTableViewSwiftCell: UITableViewCell
 {
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var magnitudeLabel: UILabel!
+    @IBOutlet weak var magnitudeImage: UIImageView!
+    
+    
     
 }

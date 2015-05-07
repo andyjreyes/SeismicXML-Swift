@@ -128,11 +128,10 @@
 				280394E41715C23500C034E3 /* APLParseOperation.m */,
 				285A04E41715C5090075E47F /* APLEarthquakeTableViewCell.h */,
 				285A04E51715C5090075E47F /* APLEarthquakeTableViewCell.m */,
+				A149990B1AFB396300A04EAB /* APLEarthquakeTableViewCell.swift */,
 				280394E11715C23500C034E3 /* APLEarthquake.h */,
 				280394E21715C23500C034E3 /* APLEarthquake.m */,
 				28FB23961715BFCF0000C69F /* Supporting Files */,
-				A149990B1AFB396300A04EAB /* APLEarthquakeTableViewCell.swift */,
-				A149990A1AFB396200A04EAB /* SeismicXML-Bridging-Header.h */,
 			);
 			path = SeismicXML;
 			sourceTree = "<group>";
@@ -149,6 +148,7 @@
 				28FB23A11715BFCF0000C69F /* Default.png */,
 				28FB23A31715BFCF0000C69F /* Default@2x.png */,
 				28FB23A51715BFCF0000C69F /* Default-568h@2x.png */,
+				A149990A1AFB396200A04EAB /* SeismicXML-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="RCy-kz-6hC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="7702" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" promptedForUpgradeToXcode5="NO" initialViewController="RCy-kz-6hC">
     <dependencies>
-        <deployment defaultVersion="1552" identifier="iOS"/>
+        <deployment identifier="iOS"/>
         <development version="4600" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Earthquakes-->
+        <!--Earthquakes-->
         <scene sceneID="tPB-S4-29y">
             <objects>
                 <tableViewController id="bgk-ma-1v4" customClass="APLViewController" sceneMemberID="viewController">
@@ -22,35 +22,39 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="63"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="5.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Scc-u1-Jfp">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="5.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Scc-u1-Jfp">
+                                            <rect key="frame" x="266" y="18" width="40" height="29"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="40" id="s6z-JE-vIP"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qnM-3y-idh">
+                                            <rect key="frame" x="168" y="11" width="90" height="43"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="90" id="Evu-jo-dlj"/>
                                                 <constraint firstAttribute="height" constant="43" id="XEM-Uv-7ay"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmR-Mf-tuE">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fmR-Mf-tuE">
+                                            <rect key="frame" x="14" y="38" width="240" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="7jZ-PD-fTU"/>
                                                 <constraint firstAttribute="width" constant="240" id="MJR-6k-G9f"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aJq-la-aig">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsLetterSpacingToFitWidth="YES" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aJq-la-aig">
+                                            <rect key="frame" x="14" y="9" width="200" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="200" id="wkN-u4-wN9"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                     </subviews>
@@ -73,13 +77,75 @@
                                     <outlet property="magnitudeLabel" destination="Scc-u1-Jfp" id="yGq-9G-Wei"/>
                                 </connections>
                             </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EarthquakeSwiftCellID" rowHeight="64" id="I5I-C1-GQs" customClass="APLEarthquakeTableViewSwiftCell" customModule="SeismicXML">
+                                <rect key="frame" x="0.0" y="22" width="320" height="64"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="63"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="5.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4b3-nP-o3I">
+                                            <rect key="frame" x="266" y="18" width="40" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="40" id="P5k-RQ-HZw"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EsE-jz-KX7">
+                                            <rect key="frame" x="168" y="11" width="90" height="43"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="90" id="6eX-zR-AyL"/>
+                                                <constraint firstAttribute="height" constant="43" id="HY1-OS-IcO"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b8I-lS-ORR">
+                                            <rect key="frame" x="14" y="38" width="240" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="240" id="3VM-U4-b2b"/>
+                                                <constraint firstAttribute="height" constant="21" id="6Ig-29-zv5"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsLetterSpacingToFitWidth="YES" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iu3-MD-Zza">
+                                            <rect key="frame" x="14" y="9" width="200" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="200" id="Ecy-PR-fMz"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="b8I-lS-ORR" firstAttribute="top" secondItem="iu3-MD-Zza" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="2YE-is-Q7V"/>
+                                    <constraint firstAttribute="centerY" secondItem="4b3-nP-o3I" secondAttribute="centerY" type="user" id="4kP-bS-HR6"/>
+                                    <constraint firstAttribute="trailing" secondItem="4b3-nP-o3I" secondAttribute="trailing" constant="14" type="user" id="H4B-8c-jU4"/>
+                                    <constraint firstItem="iu3-MD-Zza" firstAttribute="top" secondItem="I5I-C1-GQs" secondAttribute="top" constant="9" id="NxL-mR-mf9"/>
+                                    <constraint firstItem="4b3-nP-o3I" firstAttribute="leading" secondItem="EsE-jz-KX7" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="OBK-Jx-tuU"/>
+                                    <constraint firstItem="EsE-jz-KX7" firstAttribute="centerY" secondItem="4b3-nP-o3I" secondAttribute="centerY" type="default" id="PDf-dx-fO5"/>
+                                    <constraint firstItem="b8I-lS-ORR" firstAttribute="leading" secondItem="I5I-C1-GQs" secondAttribute="leading" constant="14" type="user" id="Vl4-R8-HRB"/>
+                                    <constraint firstItem="iu3-MD-Zza" firstAttribute="leading" secondItem="I5I-C1-GQs" secondAttribute="leading" constant="14" type="user" id="mbp-7e-lQc"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dateLabel" destination="b8I-lS-ORR" id="XHd-3H-BEo"/>
+                                    <outlet property="locationLabel" destination="iu3-MD-Zza" id="0Ce-Tn-Nbp"/>
+                                    <outlet property="magnitudeImage" destination="EsE-jz-KX7" id="DgM-sD-rgc"/>
+                                    <outlet property="magnitudeLabel" destination="4b3-nP-o3I" id="YCs-ym-MP8"/>
+                                </connections>
+                            </tableViewCell>
                         </prototypes>
                     </tableView>
                     <navigationItem key="navigationItem" title="Earthquakes" id="zqR-XK-zGL"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mkg-gX-scK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="664" y="-396"/>
+            <point key="canvasLocation" x="626" y="-413"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KtV-gH-LjH">
@@ -97,23 +163,6 @@
             <point key="canvasLocation" x="130" y="-396"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="APLEarthquakeTableViewCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/APLEarthquakeTableViewCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="dateLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="locationLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="magnitudeImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="magnitudeLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="APLViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/APLViewController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
